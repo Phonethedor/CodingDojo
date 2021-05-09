@@ -33,9 +33,19 @@
 .pd-5 {
 	padding: 5%;
 }
+
+.pd-10{
+	padding: 10%;
+}
+
 .pd-5-10{
 	padding: 5% 10%;
 }
+
+.pd-10-5{
+	padding: 10% 5%
+}
+
 .mg-0{
 	margin: 0;
 }
@@ -64,7 +74,7 @@
 	color: rgb(83, 88, 95);
 }
 .text-blue{
- color: #192951;
+	color: #192951;
 }
 .a-none-decoration{
 	text-decoration: none;

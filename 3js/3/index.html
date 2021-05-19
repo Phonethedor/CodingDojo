@@ -25,24 +25,24 @@
             Nota 4 : <input id="nota4"><br><br>
             Examen : <input id="ex"><br><br>
             <button id="boton" onclick="calcular()">Calcular</button><br><br>
-            <p id="result">a</p>
+            <p id="result"></p>
         </div>
         <script>
             function calcular(){
-                let n1 = document.getElementById("nota1").value;
-                let n2 = document.getElementById("nota2").value;
-                let n3 = document.getElementById("nota3").value;
-                let n4 = document.getElementById("nota4").value;
-                let ex = document.getElementById("examen").value;
+                let n1 = document.getElementById('nota1').value;
+                let n2 = document.getElementById('nota2').value;
+                let n3 = document.getElementById('nota3').value;
+                let n4 = document.getElementById('nota4').value;
+                let ex = document.getElementById('examen').value;
                 let exr = false;
                 let msg = "0";
                 
-                if(parseInt(n1) < 40 ){
+                if(n1 < 40 ){
                     msg = "10";
                 }else{
                     msg = "20";
                 }
-                document.getElementById("result").innerHTML = msg;
+                document.getElementById("result").innerHTML = "a";
             }
         </script>
     </body>

@@ -6,7 +6,7 @@
 .container{
     margin: 2em 0 0 2em;
     height: 40%;
-    width: 10%;
+    width: 30%;
     padding: 50px;
     border: 2px solid #000000;
 }
@@ -19,6 +19,7 @@ h1{
 
 input{
     width: 90%;
+    margin-bottom: 0;
 }
 
 #boton{
@@ -54,4 +55,11 @@ p{
     padding-top: 10%;
     color: #000;
     text-align: center;
+}
+
+.divE{
+    font-size: 8px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
 }

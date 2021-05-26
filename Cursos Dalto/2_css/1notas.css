@@ -1,0 +1,56 @@
+/*
+selector {
+    propiedad:valor;
+}
+estructura basica de css*/
+
+/* selectores
+-Universal = *, selecciona a todos los elementos
+-de tipo = h1, he2, button, etc. Selecciona por elemento
+-por clases = por clases asignadas en el documento html
+    ejemplo en el html se coloca
+    <h1 class="h1-clase"></h1>
+    luego en el documento css se coloca
+    .h1-clase{
+        propiedad:valor;
+    }
+-por ID = se utiliza un identificador definido en html
+    ejemplo, html:
+    <h2 id="nombre"></h2>
+    css:
+    #nombre{
+        propiedad:valor;
+    }
+-por atributo = se asigna un atributo previamente definido en html ej:
+    html:
+        <h3 ejemplo="uno"></h3>
+    css:
+        [ejemplo="uno"]{
+            propiedad:valor;
+        } 
+-por descendiente = se modifican etiquetas que se encuentran dentro de otras, ejemplo
+        html:
+            <h1><p></p</h1>
+        css: 
+            h1 p {
+                propiedad: valor;
+            }
+    pueden ser muchas etiquetas, o con clases
+        css con clases: 
+            .clase p{
+                propiedad: valor;
+            }
+-por  pseudo-clases = segun el evento que ocurra
+        en css:
+            elemento:evento{
+                propiedad: valor;
+            }
+        css con pseudo clase:
+            .clase elemento:evento{
+                propiedad: valor;
+            }
+*/
+
+/*importar fuentes
+en google fonts tiene, y explica como importar
+*/

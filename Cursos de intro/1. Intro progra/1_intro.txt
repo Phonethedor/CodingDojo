@@ -1,0 +1,33 @@
+-Full stack
+esta compuesto por 3 componentes
+
+Front end
+HTML, CSS y JS
+
+Back end
+PHP, Python, Ruby, C
+
+Base de datos
+SQL, MongoDB
+
+para full stack, se eligen framework
+como REACT
+
+-Niveles de programador
+
+Procedural (procedimental)
+se refiere a la programacion en un archivo
+
+Orientada a objetos
+Bloques de codigo con comandos, los cuales se implementan en el
+codigo para reducir la cantidad de lineas de codigo a escribir
+
+MVC (Model, Vista, Controller)
+Model: 		Bloques de codigo que se comunican con la DB
+Vista: 		Bloques de codigo que se cargan como plantillas
+Controller:	codigo que dirigen al server a recolectar info sobre los modelos o vistas
+
+ORM (Object Realational Map)
+Forma de estructurar modelos (sus relaciones)
+de forma que se pueda comunicar mas eficientemente
+con la DB

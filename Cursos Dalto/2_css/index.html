@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head><!--QUEDE EN POSITION ABSOLUTE-->
+     <title>Curso Dalto CSS</title>
+     <link rel="stylesheet" type="text/css" href="estilo.css"><!--asi se referencia la hoja de CSS-->
+     <link rel="stylesheet" type="text/css" href="normalize.css"><!--para incluir normalize,
+          tambien se puede llamar como estilo externo con la direccion web-->
+</head>
+<body>
+     <div class="listanota">
+          <ul>
+               <li><a href="1notas.css" target="_blank">notas 1</a></li>
+               <li><a href="2notas.css" target="_blank">notas 2</a></li>
+               <li><a href="3notas.css" target="_blank">notas 3</a></li>
+               <li><a href="4notas.css" target="_blank">notas 4</a></li>
+          </ul>
+     </div>     
+     <h1>Por global</h1>
+     <h2 class="h2-1">Por clase</h2>
+     <h3 id="aidi-1">Por id</h3>
+     <h4 prueba="si">Por atributo</h4>
+     <h5><b>Por descendencia</b></h5>
+     <h6>Por pseudo-clase</h6>
+     <h2 class="h2EnLinea">En linea</h2>
+     <input type="text" value="hey">
+     <button ><b>OK</b></button>
+     <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Blanditiis alias et aliquam illum non at dolores maiores<br>dolorem sequi sapiente, recusandae minus temporibus.<br>Fugiat provident, voluptatum eum dolores nisi assumenda!
+     </p>
+     <div class="form">
+          <p>Metodo BEM</p>
+          <input type="text" class="form__input">
+          <input type="password" class="form__input">
+     </div>
+     
+     <div class="emC">
+          <p>Medidas Relativas</p>
+          <input type="text" class="emc__input" value="RELATIVO em">
+     </div>
+     <div class="normal">
+          <input type="text" class="normal__input" value="RELATIVO vh"> 
+     </div>
+</body>
+</html>

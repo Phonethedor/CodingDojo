@@ -1,0 +1,46 @@
+/* propiedades
+color = cambia el color de la letra contenido
+font-size = cambia el tamaño de la fuente, funciona en pixeles, mm, cm, pt (puntos)
+font-family = tipografia
+line-height = espacio de alto que usa la letra (se calcula desde el centro a partir del tamaño predeterminado 1)
+font-weight = espacio de ancho que usa la letra
+background-color = cambia el color del fondo
+padding = distancia entre texto y caja
+padding-bottom= abajo
+padding-top = arriba
+padding-left= izquierda
+padding-right= derecha
+padding: ejeX ejeY = se puede resumir por ejes asi (ejeX top,bot. ejeY L,R. Se escribe en px)
+padding: t r b l = tambien se puede resumir asi, en px igualmente
+height = alto
+width = ancho
+box-sizing = 
+text-align = alineacion del texto
+margin = distancia entre dos cajas, se puede trabajar igual que el padding
+border-radius = redondeo del borde
+border, primero el tamaño en px, luego el estilo (hay muchos, revisar en web), luego el color
+box-shadow = dar sombra a la caja : ejeX ejeY desenfoque bordeSombra color, todo menos el color se trabaja en px
+text-shadow = lo mismo que box-shadow pero con texto y sin el borde
+transform = transforma el identificador, por ejemplo usando rotate(Xdeg), rota X grados
+outline = genera un borde sin afectar a las demas cajas
+*/
+/*in line
+    para cambiar el comportamiento de caja a en linea se puede dar la propiedad usando CSS
+    de la siguiente manera: 
+    h2 {
+        display:inline;
+    }
+    asi los h2 serian en linea, los elementos en linea no pueden tener ni width ni height
+*/
+/*Position
+static = no esta posicionado
+    al posicionar un elemento con alguna de las siguientes adquiere nuevos elementos (top bottom, left right) las cuales se trabajan en px
+    top y left son las mas importantes, es preferible trabajar con estas
+    tambien adquiere el elemento z-index por defecto su valor es 0, este es el "3D" sirve para superponer elementos, el con mayor z-index esta "adelante"
+    z-index tiene conflicto entre contenedor e hijo, ya que el contenedor no puede estar sobre lo contenido, a menos que al contenedor no se le z-index
+    y al contenido se le de un negativo
+relative =  el espacio se mantiene y se mueve desde donde estaba puesto
+absolute=   el espacio reservado SE ANULA, entonces el elemento de abajo sube
+fixed=
+sticky=
+*/

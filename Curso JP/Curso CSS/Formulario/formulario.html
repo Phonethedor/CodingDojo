@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="encabezado">
+                <h1>Formulario de registro</h1>
+                <p>Para registrarte, completa el formulario siguiente:</p>
+            </div>
+
+            <div class="formulario">
+                <form method="post" action="#" id="formulario">
+                    <div class="campo">
+                        <label for="rut">RUT:</label>
+                        <input type="text" id="rut" required/>
+                    </div>
+
+                    <div class="campo">
+                        <div class="en-linea izquierdo">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" required/>
+                        </div>
+
+                        <div class="en-linea">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" required/>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" required/>
+                    </div>
+
+                    <div class="campo">
+                        <div class="en-linea izquierdo">
+                            <label for="contrasena1">Contraseña:</label>
+                            <input type="password" id="contrasena1" required/>
+                        </div>
+                        
+                        <div class="en-linea">
+                            <label for="contrasena2">Repite tu contraseña:</label>
+                            <input type="password" id="contrasena2" required/>
+                        </div>
+                    </div>
+
+                    <div class="botones">
+                        <input type="submit" id="boton-enviar" value="Registrarse"/>
+                        <p class="mensaje" id="mensaje"></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="botones">
+                <button id="boton-mostrar-datos" disabled>Mostrar datos</button>
+            </div>
+
+            <div class="division-tabla" id="division-tabla" hidden>
+                <table id="tabla-datos-guardados">
+                    <thead>
+                        <tr>
+                            <th>RUT</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo electrónico</th>
+                            <th>Contraseña</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

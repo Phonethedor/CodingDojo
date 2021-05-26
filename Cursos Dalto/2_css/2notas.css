@@ -1,0 +1,27 @@
+/*
+especifidad
+Cascading StyleSheets: al ser una cascada de estilo, lo mas importante esta mas abajo
+nivel de gerarquia
+5= elementos, pseudo-elementos
+4= clases, pseudo-clases, atributos
+3= identificadores
+2= estilos en linea (en html: style="")
+1= !important 
+
+dependiendo del nivel de gerarquia se respeta o no la cascada
+ejemplo de !important:
+    selector {
+        propiedad: valor !important;
+    }
+no recomendado.
+*/
+
+/*
+metologia  BEM
+para evitar los problemas al dar estilo a distintos elementos, se denomina por clases
+para el nombre de la clase es: 
+    contenedor__elemento
+en el caso de que fuesen mas elemento seria: 
+    contenedor__elementoContenedor-elemento
+se requiere que los nombres sean por secciones a modo de evitar problemas
+*/

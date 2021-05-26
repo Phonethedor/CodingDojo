@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--comentario html-->
+<script>
+    //VARIABLES
+    var X = 10; //asignacion de variable
+    X = 0; //una ves declarada la variable, no es necesario el var 
+    document.write("Wena"); //se debe terminar con ;, este comando escribe el string
+
+    //CONDICIONALES
+    if (X >= 10){//condicional if 
+        console.log("ok");
+    }else if(x <= 10){//segunda condicion para if, si la anterior no se cumple
+        console.log("no");// puede tener multiples de esto
+    }   //tener en cuenta, que si antes se cumple otra condicion, el else if no se cumple
+    else{
+        console.log("meh");
+    }
+
+    while (X <= 20){//condicional while 
+        console.log(X);
+        X++;
+    }
+
+    for(X; X <= 20; X++){//condicional for
+        console.log(X);
+    }   //la if es igual a java
+
+    //ARRAYS
+    var ArRay = [1, 2, 3];//declaracion de array
+    ArRay.pop(); //quita el ultimo elemento del array
+    ArRay.push(3); //añade el elemento entre parentesis al array y aumenta su length
+
+    var Largo = ArRay.length;
+    console.log(ArRay);
+    console.log(Largo);
+
+    //FUNCIONES
+    function conTador(){//declaracion de funcion
+        //se escribe aqui, el codigo de la funcion
+        for(var num = 0; num <= 5; num++){
+            console.log(num);
+        }
+    }   //se creo una funcion que contara desde 0 hasta 5
+
+    function contador(numInicio){
+        for(var num = numInicio; num >= 0; num--){
+            console.log(num);
+        }
+    }   /*se creo una funcion con parametro ingresado (numInicio)
+        esta funcion ira restando de a 1 desde el numero ingresado
+        hasta llegar a 0*/
+
+    //al agregar el termino return a una funcion, devuelve el valor
+    var thaifood = 150;
+    var group = 4;
+
+    function tip(bill){
+        console.log(bill*1.2);
+        return bill*1.2;
+    }
+
+    var total = tip(thaifood);//aqui como la funcion tip tiene el termino return, devolvera el resultado y se lo asignara a esta variable
+    //la variable total al tener el retorno de la funcion tip, ahora es un int y puede ser trabajado como tal
+    var each = total/group;
+    
+    
+</script>
+</html>

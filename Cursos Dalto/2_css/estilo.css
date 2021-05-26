@@ -1,0 +1,75 @@
+.listanota{
+    width:100px;
+    height:100px;
+    display:block;
+    border:1px solid black;
+}
+
+a {
+    padding: 5px;
+    text-shadow: 5px;
+    font-family: Impact;
+}
+
+/*notas 1*/
+* {
+    color: saddlebrown;
+}
+
+h1{
+    color: tomato;
+}
+
+.h2-1{
+    color:purple;
+}
+
+#aidi-1{
+    color:olivedrab;
+}
+
+[prueba="si"]{
+    color:orangered;
+}
+
+h5 b{
+    color:mediumblue;
+}
+
+h6:hover{
+    color:lawngreen;
+}
+/*notas 2*/
+.form__input:first-child{/* el first-child es por que solo quiero cambiar el primer elemento*/
+    background-color: cornflowerblue;
+}
+
+/*notas 3*/
+.emC{
+    font-size: 20px;
+}
+
+.emc__input{
+    font-size: 1em;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.normal{
+    font-size: 20px;
+}
+
+.normal__input{
+    font-size: 1em;
+    width: 50vw;
+    height: 50vh;
+}
+
+/*notas 4 inline*/
+
+.h2EnLinea{
+    display:inline; 
+}

@@ -1,0 +1,32 @@
+
+
+.parrafo {
+    background-color: cyan;
+    color: red;
+    font-size: 2em;
+}
+
+body {
+    background-image: url("fondo.png");
+    font-family: "Calibri", "Verdana", "Geneva", "sans-serif";
+}
+
+.division {
+    background-color: #CCCCCC;
+    height: 300px;
+    width: 60%;
+    border-color: black black black black;
+    border-style: solid;
+    border-width: 3px;
+    margin : 2em;
+    padding: 0.8em 1em;
+    text-align: center;
+}
+
+.pD {
+    text-align: left;
+}
+
+#lorem {
+    color: grey;
+}

@@ -1,3 +1,49 @@
+Alvaro@OP MINGW64 ~/Desktop/Curso FS Python (master)
+$ cd ..
+
+Alvaro@OP MINGW64 ~/Desktop
+$ mkdir test
+
+Alvaro@OP MINGW64 ~/Desktop
+$ cd test
+
+Alvaro@OP MINGW64 ~/Desktop/test
+$ touch index.html
+
+Alvaro@OP MINGW64 ~/Desktop/test
+$ touch styles.css
+
+Alvaro@OP MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+Alvaro@OP MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+Alvaro@OP MINGW64 ~/Desktop/test
+$ cd ..
+
+Alvaro@OP MINGW64 ~/Desktop
+$ mkdir destino
+
+Alvaro@OP MINGW64 ~/Desktop
+$ mv test/index_2.html destino/index_2.html
+
+Alvaro@OP MINGW64 ~/Desktop
+$ rm test/styles.css
+
+Alvaro@OP MINGW64 ~/Desktop
+$ dir test
+commands.txt  index.html
+
+Alvaro@OP MINGW64 ~/Desktop
+$ dir destino
+index_2.html
+
+Alvaro@OP MINGW64 ~/Desktop
+$ rm -rf destino
+
+Alvaro@OP MINGW64 ~/Desktop
+$ cat test/commands.txt
 /*Comandos Git Windows*/
 
 ~/ es atajo para /home/user
